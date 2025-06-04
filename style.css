@@ -1,0 +1,11 @@
+/* black-theme.css */
+
+body {
+    background-color: #000;     /* black background */
+    color: #fff;                /* white text */
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: #1e90ff;             /* bright blue links */
+  }
