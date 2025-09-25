@@ -1,11 +1,135 @@
-/* black-theme.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.skip-link {
+  position: absolute;
+  top: -40px;       /* hide above viewport */
+  left: 0;
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 10px;        /* bring it into view */
+}
 body {
-    background-color: #000;     /* black background */
-    color: #fff;                /* white text */
-    font-family: Arial, sans-serif;
+   margin: 1px;
+   padding-left: 10%;
+   padding-right: 10%;
+background-color: black;
+
+    
+  }
+  header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-top: 1px;
+border-inline-end-style: double; color: #e5cd1b;
+border-radius: 5%;
+margin: 5%;
+height: auto;
+
   }
   
-  a {
-    color: #1e90ff;             /* bright blue links */
+  
+  h1 {
+    color: #fcfcfc;
+    font-family: "Roboto Flex";
+
   }
+  
+  p {
+    color: #ccd3da;
+    text-align: justify;
+  }
+  
+  footer { display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: #ccd3da;
+    padding: 5%;
+
+  
+    
+
+
+
+  }
+  a {
+    color: #ccd3da;             
+
+  }
+.logo  {
+
+  display: flex;
+  justify-content: start;
+  font-size: 24px;
+  font-family: "robolo Flex";
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+  gap: 1p;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 5px;
+  word-spacing: 10px;
+flex-wrap: wrap;
+ 
+}
+  
+.navbar li {
+  display: inline-block;
+  margin-right: 0px; /* space between menu items */
+  
+
+
+}
+
+.navbar a {
+  color: #f8f8f8;        
+  text-decoration: none; /* remove underline */
+  font-size: 20px;
+ 
+  
+
+
+
+}
+
+.navbar a:hover {
+  background: #5e5b5b;      /* simple hover effect */
+
+
+    
+
+  
+    
+    
+      
+}
+
+    
+div {
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+
+    
+      
+}
+.video1 {
+      display: flex;    /* simple hover effect */
+      justify-content: center;
+      padding-left: 25px;
+
+      
+      
+      
+          
+        }
+    

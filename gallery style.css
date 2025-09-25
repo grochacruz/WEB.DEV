@@ -1,0 +1,106 @@
+
+
+body {
+    margin: 1px;
+    padding-left: 10%;
+    padding-right: 10%;
+ background-color: black;
+ 
+     
+   }
+   header{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding-top: 1px;
+ border-inline-end-style: double; color: #e5cd1b;
+ border-radius: 5%;
+ margin: 5%;
+ height: auto;
+ 
+   }
+   
+   
+   h1 {
+     color: #fcfcfc;
+     font-family: "Roboto Flex";
+ 
+   }
+   
+   p {
+     color: #ccd3da;
+     text-align: justify;
+   }
+   
+   footer { display: flex;
+     justify-content: center;
+     font-style: italic;
+     color: #ccd3da;
+ 
+   }
+   a {
+     color: #ccd3da;             
+ 
+   }
+ .logo  {
+ 
+   display: flex;
+   justify-content: start;
+   font-size: 24px;
+   font-family: "robolo Flex";
+ }
+ .navbar {
+   display: flex;
+   justify-content: end;
+   gap: 1p;
+   font-family: Arial, Helvetica, sans-serif;
+   gap: 5px;
+   word-spacing: 10px;
+ flex-wrap: wrap;
+  
+ }
+   
+ .navbar li {
+   display: inline-block;
+   margin-right: 0px; /* space between menu items */
+   
+ 
+ 
+ }
+ 
+ .navbar a {
+   color: #f8f8f8;        
+   text-decoration: none; /* remove underline */
+   font-size: 20px;
+  
+   
+ 
+ 
+ 
+ }
+ 
+ .navbar a:hover {
+   background: #5e5b5b;      /* simple hover effect */
+ 
+ 
+     
+ 
+}
+#gallery {
+display: flex;
+justify-items: center;
+flex-direction: column;
+     
+       
+ }
+
+ gallery image {    
+ max-width: 100%;   /* shrink if parent is smaller */
+ height: auto;      /* keep aspect ratio */
+ border-radius: 8px;
+}
+  
+    
+    
+      
+
