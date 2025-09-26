@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 
 body {
@@ -23,7 +24,7 @@ body {
    
    h1 {
      color: #fcfcfc;
-     font-family: "Roboto Flex";
+     font-family: "Roboto flex";
  
    }
    
@@ -52,10 +53,9 @@ body {
  .navbar {
    display: flex;
    justify-content: end;
-   gap: 1p;
+   gap: 1px;
    font-family: Arial, Helvetica, sans-serif;
-   gap: 5px;
-   word-spacing: 10px;
+  word-spacing: 10px;
  flex-wrap: wrap;
   
  }

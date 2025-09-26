@@ -3,7 +3,7 @@
 
 .skip-link {
   position: absolute;
-  top: -40px;       /* hide above viewport */
+  top: -40px;       /* hide above from page */
   left: 0;
   background: #000;
   color: #fff;
@@ -13,7 +13,7 @@
 }
 
 .skip-link:focus {
-  top: 10px;        /* bring it into view */
+  top: 10px;        /*  showinto view */
 }
 body {
    margin: 1px;
