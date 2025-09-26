@@ -21,8 +21,17 @@ body {
    padding-left: 10%;
    padding-right: 10%;
 background-color: black;
+}
 
-    
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+ul:focus
+select:focus {
+  outline: 3px solid #005fcc;   
+  outline-offset: 3px;          
+  border-radius: 4px    
   }
   header{
 display: flex;
