@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
-
 .skip-link {
   position: absolute;
   top: -40px;       /* hide above viewport */
@@ -84,7 +83,7 @@ flex-wrap: wrap;
   
 .navbar li {
   display: inline-block;
-  margin-right: 0px; /* space between menu items */
+  margin-right: 0px; 
   
 
 
@@ -92,7 +91,7 @@ flex-wrap: wrap;
 
 .navbar a {
   color: #f8f8f8;        
-  text-decoration: none; /* remove underline */
+  text-decoration: none; 
   font-size: 20px;
  
   
@@ -124,16 +123,32 @@ div {
       
 }
 .video1 {
-      display: flex;   
+      display: flex;    
       justify-content: center;
       padding-left: 25px;
-    }
+
       
-      .socials img {
-        width: 5px;  
-        height: 5px
+      
       
           
         }
     
-      
+        .contactstitle {
+            font-size: 32px;       
+            color: #e6e2e2;        
+            text-align: center;    
+            font-weight: bold;    
+            margin-bottom: 20px;   
+          }
+        
+    
+        .socials img {
+            display: flex;
+            width: 1px;
+            height: 1px;
+          }
+          @media (ma) {
+            
+          }
+
+        
