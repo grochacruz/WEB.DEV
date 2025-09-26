@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 
-.skip-link {
+.skip-link { /* add from Firth, A. (2023). "Practical web accessibility" */
   position: absolute;
-  top: -40px;       /* hide above viewport */
+  top: -40px;       
   left: 0;
   background: #000;
   color: #fff;
@@ -13,8 +13,8 @@
   transition: top 0.3s;
 }
 
-.skip-link:focus {
-  top: 10px;        /* bring it into view */
+.skip-link:focus { /* add from Firth, A. (2023). "Practical web accessibility" */
+  top: 10px;       
 }
 body {
    margin: 1px;
@@ -28,10 +28,11 @@ button:focus,
 input:focus,
 textarea:focus,
 ul:focus
+
 select:focus {
-  outline: 3px solid #005fcc;   
+  outline: 3px solid #c8cacd;   
   outline-offset: 3px;          
-  border-radius: 4px    
+  border-radius: 3px    
   }
   header{
 display: flex;
@@ -93,7 +94,7 @@ flex-wrap: wrap;
   
 .navbar li {
   display: inline-block;
-  margin-right: 0px; /* space between menu items */
+  margin-right: 0px; 
   
 
 
@@ -101,7 +102,7 @@ flex-wrap: wrap;
 
 .navbar a {
   color: #f8f8f8;        
-  text-decoration: none; /* remove underline */
+  text-decoration: none; 
   font-size: 20px;
  
   
@@ -111,7 +112,7 @@ flex-wrap: wrap;
 }
 
 .navbar a:hover {
-  background: #5e5b5b;      /* simple hover effect */
+  background: #5e5b5b;      /*  hover effect */
 
 
     

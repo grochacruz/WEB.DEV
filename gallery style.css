@@ -94,13 +94,6 @@ flex-direction: column;
        
  }
 
- gallery image {    
- max-width: 100%;   /* shrink if parent is smaller */
- height: auto;      /* keep aspect ratio */
- border-radius: 8px;
-}
-  
-    
     
       
 
